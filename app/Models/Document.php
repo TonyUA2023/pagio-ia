@@ -22,6 +22,9 @@ class Document extends Model
         'file_type',
         'storage_path',
         'status',
+        'word_count',
+        'file_size',
+        'page_count', // <- Asegúrate de que esta línea esté presente
     ];
 
     /**
